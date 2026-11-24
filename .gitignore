@@ -1,0 +1,16 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# macOS metadata
+.DS_Store
+
+# Raw EuroSAT-MS GeoTIFF dataset (105 MB; re-download via src/download_eurosat_ms.py)
+data/EuroSAT_MS/
+
+# Temporary build assets
+report/eq_assets/
